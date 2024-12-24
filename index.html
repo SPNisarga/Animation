@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        /* display: flex; */
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+        grid-template-rows: 100px 100px;
+        grid-gap: 200px;
+    }
+    div{
+        width: 250px;
+        height: 250px;
+        background-color: lightcoral;
+        border: 2px solid black;
+        font-size: 8rem;
+        text-align: center;
+        align-content: center;
+        animation-name: translate;
+        /* animation-name: scale; */
+        /* animation-name: rotate; */
+        /* animation-name: skew; */
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+
+    }
+    @keyframes translate 
+    {
+        from{transform: translate(500px);}
+        0%{background-color: blue;}
+        10%{background-color: darkcyan;}
+        20%{background-color: darkgoldenrod;}
+        30%{background-color: darkgray;}
+        40%{background-color: darkgreen;}
+        50%{background-color: darkkhaki;}
+        60%{background-color: darkmagenta;}
+        70%{background-color: darkorange;}
+        80%{background-color: darkred;}
+        90%{background-color: darksalmon;}
+        100%{background-color: deeppink;}
+    }
+    @keyframes scale
+    {
+        from{transform: scale(0.1);}
+        0%{background-color: blue;}
+        10%{background-color: darkcyan;}
+        20%{background-color: darkgoldenrod;}
+        30%{background-color: darkgray;}
+        40%{background-color: darkgreen;}
+        50%{background-color: darkkhaki;}
+        60%{background-color: darkmagenta;}
+        70%{background-color: darkorange;}
+        80%{background-color: darkred;}
+        90%{background-color: darksalmon;}
+        100%{background-color: deeppink;}
+    }
+    @keyframes rotate
+    {
+        from{transform: rotate(460deg);}
+        0%{background-color: blue;}
+        10%{background-color: darkcyan;}
+        20%{background-color: darkgoldenrod;}
+        30%{background-color: darkgray;}
+        40%{background-color: darkgreen;}
+        50%{background-color: darkkhaki;}
+        60%{background-color: darkmagenta;}
+        70%{background-color: darkorange;}
+        80%{background-color: darkred;}
+        90%{background-color: darksalmon;}
+        100%{background-color: deeppink;}
+    }
+    @keyframes skew
+    {
+        from{transform: skewx(150deg);}
+        0%{background-color: blue;}
+        10%{background-color: darkcyan;}
+        20%{background-color: darkgoldenrod;}
+        30%{background-color: darkgray;}
+        40%{background-color: darkgreen;}
+        50%{background-color: darkkhaki;}
+        60%{background-color: darkmagenta;}
+        70%{background-color: darkorange;}
+        80%{background-color: darkred;}
+        90%{background-color: darksalmon;}
+        100%{background-color: deeppink;}
+    }
+</style>
+<body>
+    <div>
+        BTS
+    </div>
+    <div>
+        BTS
+    </div>
+    <div>
+        BTS
+    </div>
+    <div>
+        BTS
+    </div>
+    <div>
+        BTS
+    </div>
+</body>
+</html>
